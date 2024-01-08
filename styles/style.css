@@ -1,0 +1,108 @@
+/* Font  */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.new-year {
+
+    font-size: 32px;
+    font-weight: 2300;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.happy {
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.brand {
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f2f2f8;
+    height: 800px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 16px;
+}
+
+/* For centering the text */
+.centered {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 33%;
+}
+
+/*  Discount related style */
+.discount-info {
+    align-items: center;
+}
+
+.discount-related {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-weight: 70px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.discount-more {
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-weight: 80px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.daily {
+    text-align: center;
+    color: rgb(12, 4, 4);
+    font-size: 20px;
+    font-weight: 80px;
+}
+
+/* For image */
+.another-year {
+    margin-top: 50px;
+    margin-left: 25.4%;
+}
+
+/* Mid Night */
+.mid-night {
+    margin-top: 5%;
+    background-image: url('../resources/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7%;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 16px;
+}
+
+.mid-night-info {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+
+}
+
+.mid-night-description {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.join-now{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-left: 25px;
+}

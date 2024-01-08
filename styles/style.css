@@ -22,11 +22,9 @@ body {
     background-image: url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    color: #f2f2f8;
+    color: #c6e635;
     height: 800px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 16px;
+    border-radius:16px;
 }
 
 /* For centering the text */
@@ -75,16 +73,25 @@ body {
 }
 
 /* Mid Night */
+
 .mid-night {
-    margin-top: 5%;
-    background-image: url('../resources/Vectorrr.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* margin-top: 7%; */
     padding: 7%;
     height: 500px;
-    margin-left: 5%;
-    margin-right: 5%;
     border-radius: 16px;
+}
+.parent{
+    display: flex; background-image: url('../resources/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parent .img {
+    width: 500px;
+    height: 650px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+
 }
 
 .mid-night-info {
@@ -105,4 +112,21 @@ body {
     font-weight: 300;
     margin-top: 50px;
     margin-left: 25px;
+}
+/* Schedule related styles */
+.schedule{
+    color: black;
+}
+.schedule-initial{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 0px;
+}
+.schedule-related{
+    color: red;
+    font-size: 25px;
+    
+}
+.huda{
+    margin-top: 100px;
 }

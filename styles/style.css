@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Font  */
 body {
     font-family: 'Merriweather', serif;
@@ -24,7 +29,7 @@ body {
     background-size: cover;
     color: #c6e635;
     height: 800px;
-    border-radius:16px;
+    border-radius: 16px;
 }
 
 /* For centering the text */
@@ -80,18 +85,51 @@ body {
     height: 500px;
     border-radius: 16px;
 }
-.parent{
-    display: flex; background-image: url('../resources/Vectorrr.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.parent .img {
-    width: 500px;
-    height: 650px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 120px;
 
+.fine {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.op {
+    background-image: url('../resources/Vectorrr.png');
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.fine .fine-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+}
+.fine .fine-text *{
+    margin-bottom: 40px;
+}
+
+
+.fine .fine-text p {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+
+
+.parent-influence {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding-top: 1px;
 }
 
 .mid-night-info {
@@ -106,27 +144,59 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-.join-now{
+
+.join-now {
     color: white;
     font-size: 16px;
     font-weight: 300;
     margin-top: 50px;
     margin-left: 25px;
 }
+
 /* Schedule related styles */
-.schedule{
+.schedule {
     color: black;
 }
-.schedule-initial{
+
+.schedule-initial {
     text-align: center;
     font-size: 25px;
     padding-bottom: 0px;
 }
-.schedule-related{
+
+.schedule-related {
     color: red;
     font-size: 25px;
-    
 }
-.huda{
+
+.huda {
     margin-top: 100px;
+}
+
+.button {
+    background: red;
+    color: white;
+    margin-right: 700px;
+    margin-left: 700px;
+    padding: 15px 50px;
+}
+
+/* New Background */
+
+
+
+.soon{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 200px;
+    padding: 100px;
+}
+.soon .offer-one p{
+    margin-right: 50px;
+}
+
+.soon .img img{
+    margin-right: 120px;
 }

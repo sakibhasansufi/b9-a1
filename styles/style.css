@@ -70,7 +70,6 @@ body {
     font-size: 20px;
     font-weight: 80px;
 }
-
 /* For image */
 .another-year {
     margin-top: 50px;
@@ -82,7 +81,6 @@ body {
     background-size: cover;
     height: 600px;
     margin-top: 40px;
-
 }
 
 .fine {
@@ -112,7 +110,7 @@ body {
 }
 
 .fine .fine-text h5 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: #FFF;
 }
@@ -125,16 +123,44 @@ body {
 .fine .fine-text p {
     color: #FFF;
     font-family: Merriweather;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
 
+}
+
+/* dp related style */
+.dp{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-left: 400px;
 }
 
 /* Place date & time related style */
 .time{
     margin-top: 10%;
     text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding-top: 1px;
+
+}
+.time-description p button{
+    margin-top: 30px;
+    background-color: #FF0000;
+    width: 120px;
+    height: 50px;
+    color: #FFF;
+    border: 0;
+    border-color: #FF0000;
+    border-radius: 10px;
+}
+.time .time-description p{
+    margin-top: 10%;
+}
+.time-description span{
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* Schedule related styles */
@@ -277,10 +303,9 @@ body {
     margin-bottom: 25px;
     padding: 18px 35px;
     color: #757575;
-    border-radius: 5px;
     background: #FFF;
     border: 0;
-    border-radius: 16px;
+    border-radius: 16px 0px 0px 16px;
     margin-top: 15px;
     margin-left: 33.5%;
     width: 20%;
@@ -295,7 +320,7 @@ body {
     margin-top: 15px;
     border: 0;
     border-color: red;
-    border-radius: 16px;
+    border-radius: 0px 16px 16px 0px;
     padding: 20px;
     color: #FFF;
 
@@ -324,7 +349,5 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     display: flex ;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
-
